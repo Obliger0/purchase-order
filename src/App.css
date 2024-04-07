@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-color: #424345;
+  min-height: 100vh;
+  /* min-width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-app{
+ height: 500px;
+ /* width: 700px; */
+ opacity: 0.8;
+ overflow: hidden;
+ filter: blur(1px);
+ 
+}
+
+input,
+textarea,
+select {
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+  height: 20px;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  > input,textarea,select{
+    font-size: 20px;
+    padding: 20px;
+    height: auto;
+    }
+
+}
+
+button {
+  width: 100px;
+}
+
+.btnWrap {
+  display: flex;
+  >button {
+      width: 50%;
+      padding: 10px;
+      font-size: 20px;
+    }
+}
+
+.alert-box {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.active-nav{
+  color: rgb(40, 134, 216);
+}
+
+.inactive-nav{
+  text-decoration: none;
+  color: rgb(234, 245, 248);
+}
